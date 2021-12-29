@@ -11,6 +11,7 @@ set(vectcom_bench_sources
     BenchPolyDivideXnc.cpp
     BenchPolynomialOps.cpp
     BenchRootsOfUnityEval.cpp
+    our_BenchFk.cpp
 )
 
 foreach(appSrc ${vectcom_bench_sources})
