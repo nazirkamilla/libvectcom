@@ -1,0 +1,9 @@
+# filesize runtime
+File size: 1.92MB, Time to commit: 0.871843sec
+File size: 3.84MB, Time to commit: 1.72198sec
+File size: 5.76MB, Time to commit: 2.47914sec
+File size: 7.68MB, Time to commit: 3.26081sec
+File size: 9.6MB, Time to commit: 3.88143sec
+File size: 11.52MB, Time to commit: 4.68415sec
+File size: 13.44MB, Time to commit: 5.91243sec
+File size: 15.36MB, Time to commit: 6.19432sec
