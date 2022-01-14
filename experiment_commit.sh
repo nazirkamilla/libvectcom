@@ -32,16 +32,16 @@ BenchCommit 300 2800 500 2>/dev/null 1>>data-experiment-commit-k300.txt
 BenchCommit 300 3000 500 2>/dev/null 1>>data-experiment-commit-k300.txt
 
 
-unlink data-experiment-commit-k100.txt || true
-touch data-experiment-commit-k100.txt
+unlink data-experiment-commit-k75.txt || true
+touch data-experiment-commit-k75.txt
 
-echo "k L iter filesize runtime" > data-experiment-commit-k100.txt
-BenchCommit 100 70 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 120 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 250 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 400 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 530 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 700 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 800 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 900 500 2>/dev/null 1>>data-experiment-commit-k100.txt
-BenchCommit 100 1000 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+echo "k L iter filesize runtime" > data-experiment-commit-k75.txt
+BenchCommit 75 700 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 1200 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 2500 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 4000 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 5300 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 7000 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 8000 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+BenchCommit 75 9000 500 2>/dev/null 1>>data-experiment-commit-k75.txt
+
