@@ -32,6 +32,20 @@ BenchCommit 300 2800 500 2>/dev/null 1>>data-experiment-commit-k300.txt
 BenchCommit 300 3000 500 2>/dev/null 1>>data-experiment-commit-k300.txt
 
 
+unlink data-experiment-commit-k100.txt || true
+touch data-experiment-commit-k100.txt
+
+echo "k L iter filesize runtime" > data-experiment-commit-k100.txt
+BenchCommit 100 700 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 1200 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 2500 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 4000 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 5300 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 7000 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 8000 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+BenchCommit 100 9000 500 2>/dev/null 1>>data-experiment-commit-k100.txt
+
+
 unlink data-experiment-commit-k75.txt || true
 touch data-experiment-commit-k75.txt
 

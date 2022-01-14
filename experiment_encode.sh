@@ -32,6 +32,21 @@ BenchEncode 300 900 2800 500 2>/dev/null 1>>data-experiment-encode-k300.txt
 BenchEncode 300 900 3000 500 2>/dev/null 1>>data-experiment-encode-k300.txt
 
 
+unlink data-experiment-encode-k100.txt || true
+touch data-experiment-encode-k100.txt
+
+echo "n k L iter filesize runtime" > data-experiment-encode-k100.txt
+BenchEncode 100 300 700 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 1200 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 2500 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 4000 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 5300 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 7000 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 8000 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+BenchEncode 100 300 9000 500 2>/dev/null 1>>data-experiment-encode-k100.txt
+
+
+
 unlink data-experiment-encode-k75.txt || true
 touch data-experiment-encode-k75.txt
 
@@ -44,4 +59,5 @@ BenchEncode 75 225 5300 500 2>/dev/null 1>>data-experiment-encode-k75.txt
 BenchEncode 75 225 7000 500 2>/dev/null 1>>data-experiment-encode-k75.txt
 BenchEncode 75 225 8000 500 2>/dev/null 1>>data-experiment-encode-k75.txt
 BenchEncode 75 225 9000 500 2>/dev/null 1>>data-experiment-encode-k75.txt
+
 
