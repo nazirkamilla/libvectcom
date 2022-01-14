@@ -71,6 +71,6 @@ int main(int argc, char *argv[]) {
     }
     
     double average_time = total_time/iter;
-    cout  << (double)(k*L*32) / 1.0e6 << " " << average_time*k / 1.0e6 << endl;
+    cout  << k << " " << L << " " << iter << " " <<  (double)(k*L*32) / 1.0e6 << " " << average_time*k / 1.0e6 << endl;
     return 0;
 }

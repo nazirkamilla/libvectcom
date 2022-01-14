@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
     
     
     cerr << c << endl;
-    cout << (double)(k*L*32) / 1.0e6 << " " << average_time*L / 1.0e6 << " " << (double)(n*(L*32 + k*32))/ 1.0e6 << endl;
+    cout << n << " " << k << " " << L << " " << iter << " " << (double)(k*L*32) / 1.0e6 << " " << average_time*L / 1.0e6 << " " << (double)(n*(L*32 + k*32))/ 1.0e6 << endl;
     return 0;
 }
 
